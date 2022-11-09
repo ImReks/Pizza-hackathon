@@ -10,6 +10,7 @@
 </head>
 <body>
     <script src="JS/modalTrigger.js"></script>
+    <script src="JS/navBurger.js"></script>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="index.html">
@@ -17,15 +18,20 @@
                 Pizzaaaaaaaaaaaaa!
               </p>
           </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start pt-3">
-            <a class="button modal-title-colors js-modal-trigger button-width" data-target="modal-zelfPizza" aria-haspopup="true">
+            <a class="button modal-title-colors js-modal-trigger button-width navbar-item" data-target="modal-zelfPizza" aria-haspopup="true">
               Zelf Pizza maken
             </a>
       
-            <a class="button modal-title-colors">
+            <a class="button modal-title-colors navbar-item">
               Contact
             </a>
           </div>
