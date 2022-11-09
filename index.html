@@ -21,7 +21,7 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start pt-3">
-            <a class="button modal-title-colors">
+            <a class="button modal-title-colors js-modal-trigger button-width" data-target="modal-zelfPizza" aria-haspopup="true">
               Zelf Pizza maken
             </a>
       
@@ -271,6 +271,21 @@
           </section>
         </div>
       </div>
+
+      <div id="modal-zelfPizza" class="modal" >
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head modal-title-colors">
+            <p class="modal-card-title has-text-weight-bold is-uppercase">Zelf Pizza Maken</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <buton class="button modal-title-colors" href="index.html">Toevoeg bestelling</buton>
+          </section>
+        </div>
+      </div>
+
+
       <footer class="footer modal-title-colors" >
         <div class="content has-text-centered ">
           <p class="has-text-grey-light has-text-weight-bold">
