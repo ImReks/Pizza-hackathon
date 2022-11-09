@@ -1,2 +1,2 @@
 # Pizza-hackathon
-Pizzaaaa
+Website gemaakt met behulp van bulma voor hackathon van hogeschool rotterdam.
