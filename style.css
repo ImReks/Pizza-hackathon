@@ -1,49 +1,65 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
 }
 
-body
-{
+body {
 
     background-color: rgb(255, 115, 0);
 }
 
-.button-width
-{
+.button-width {
     width: 100%;
     background-color: rgb(204, 92, 0);
 }
-.modal-title-colors
-{
+
+.modal-title-colors {
     background-color: rgb(204, 92, 0) !important;
 
 }
-.diagonal
-{
+
+.diagonal {
     position: static;
     z-index: 1 !important;
-    padding-top:300px !important;
-    margin-top:-300px !important;
+    padding-top: 300px !important;
+    margin-top: -300px !important;
 }
-.title-image
-{
+
+.title-image {
     position: static;
     z-index: 2 !important;
     margin-bottom: 0px !important;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 60%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
     background-image: url(../Assets/PizzaTitel.jpg);
     animation: pizza 20s infinite ease-in-out;
     background-size: cover;
-    background-position: 0 -200px
 
 }
-@keyframes pizza
-{
-    0%{background-image: url(../Assets/PizzaTitel.jpg);}
-    25%{background-image: url(../Assets/PizzaTitel2.jpg);}
-    50%{background-image: url(../Assets/PizzaTitel3.jpg);}
-    75%{background-image: url(../Assets/PizzaTitel4.jpg);}
-    100%{background-image: url(../Assets/PizzaTitel.jpg);}
+
+@media (min-width:768px) {
+    .title-image {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 60%);
+    }
+}
+
+@keyframes pizza {
+    0% {
+        background-image: url(../Assets/PizzaTitel.jpg);
+    }
+
+    25% {
+        background-image: url(../Assets/PizzaTitel2.jpg);
+    }
+
+    50% {
+        background-image: url(../Assets/PizzaTitel3.jpg);
+    }
+
+    75% {
+        background-image: url(../Assets/PizzaTitel4.jpg);
+    }
+
+    100% {
+        background-image: url(../Assets/PizzaTitel.jpg);
+    }
 }
