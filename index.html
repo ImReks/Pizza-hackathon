@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="JS/modalTrigger.js"></script>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <p class="title has-text-grey-light has-text-weight-bold is-uppercase has-text-centered is-size-2">
+                Pizzaaaaaaaaaaaaa!
+              </p>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Zelf Pizza maken
+            </a>
+      
+            <a class="navbar-item">
+              Contact
+            </a>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button modal-title-colors">
+                  <strong> Pizza bestellen</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section class="hero is-medium title-image">
+        <div class="hero-body">
+            
+          <p class="title has-text-grey-light has-text-weight-bold is-uppercase has-text-centered is-size-2">
+            Pizzaaaaaaaaaaaaa!
+          </p>
+          <p class="subtitle has-text-grey-light has-text-weight-bold is-uppercase has-text-centered is-size-3">
+            Een plek met best veel pizza
+          </p>
+          <div class="background-cutout"></div>
+        </div>
+      </section>  
+      <section class="section">
+        <div class="container has-background-light p-5 diagonal">
+        <div class="columns">
+            <div class="column">
+                <div class="card card-shadow p-2">
+                    <h2 class="has-text-weight-bold is-uppercase has-text-centered p-2">Kaas en ham</h2>
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="Assets/PizzaTitel.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">
+                        pizza met kaas en ham
+                      </div>
+                    </div>        
+                    <button class="button js-modal-trigger button-width" data-target="modal-1" aria-haspopup="true">Meer informatie</button>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="card card-shadow p-2">
+                    <h2 class="has-text-weight-bold is-uppercase has-text-centered p-2">mozzarella</h2>
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="Assets/PizzaTitel2.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                
+                  
+                      <div class="content">
+                        pizza met mozzarella
+        
+                      </div>
+                    </div>
+                    <button class="button js-modal-trigger button-width" data-target="modal-2" aria-haspopup="true">Meer informatie</button>
+                  </div>
+                  
+            </div>
+            <div class="column">
+                <div class="card card-shadow p-2">
+                    <h2 class="has-text-weight-bold is-uppercase has-text-centered p-2">Kaas en kip</h2>
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="Assets/PizzaTitel3.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+            
+                  
+                      <div class="content">
+                        pizza met kaas en kip
+             
+                      </div>
+                    </div>
+                    <button class="button js-modal-trigger button-width" data-target="modal-3" aria-haspopup="true">Meer informatie</button>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="card card-shadow p-2">
+                    <h2 class="has-text-weight-bold is-uppercase has-text-centered p-2">Tuna</h2>
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="Assets/PizzaTitel4.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+           
+                  
+                      <div class="content">
+                        pizza met tuna
+                      </div>
+                    </div>
+                    <button class="button js-modal-trigger button-width" data-target="modal-4" aria-haspopup="true">Meer informatie</button>
+                  </div>
+            </div>
+          </div> 
+        </section>
+    </div>
+    <div id="modal-1" class="modal" >
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head modal-title-colors">
+          <p class="modal-card-title has-text-weight-bold is-uppercase">Kaas en ham</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <figure class="image is-4by3">
+                <img src="Assets/PizzaTitel.jpg" alt="Placeholder image">
+              </figure>
+            <p class="has-text-weight-bold">Pizza grotte:</p>
+            <p>30cm straal </p>
+            <p class="has-text-weight-bold">Ingredient's:</p>
+            <ul>
+            <li>
+                kaas
+            </li>
+            <li>
+                ham
+            </li>
+            <li>
+                olijven
+            </li>
+            <li>
+                tomaat saus
+            </li>
+            </ul>
+            <p class="has-text-weight-bold">Prijs:</p>
+            <p>12,99 euro </p>
+            <buton class="button modal-title-colors" href="index.html">Toevoeg bestelling</buton>
+        </section>
+      </div>
+    </div>
+
+    <div id="modal-2" class="modal" >
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head modal-title-colors">
+            <p class="modal-card-title has-text-weight-bold is-uppercase">mozzarella</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <figure class="image is-4by3">
+                <img src="Assets/PizzaTitel2.jpg" alt="Placeholder image">
+              </figure>
+              <p class="has-text-weight-bold">Pizza grotte:</p>
+              <p>30cm straal </p>
+              <p class="has-text-weight-bold">Ingredient's:</p>
+              <ul>
+              <li>
+                  kaas
+              </li>
+              <li>
+                  mozzarella
+              </li>
+              <li>
+                  olijven
+              </li>
+              <li>
+                  tomaat saus
+              </li>
+              </ul>
+              <p class="has-text-weight-bold">Prijs:</p>
+              <p>15,99 euro </p>
+              <buton class="button modal-title-colors" href="index.html">Toevoeg bestelling</buton>
+          </section>
+        </div>
+      </div>
+
+      <div id="modal-3" class="modal" >
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head modal-title-colors">
+            <p class="modal-card-title has-text-weight-bold is-uppercase">Kaas en kip</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <figure class="image is-4by3">
+                <img src="Assets/PizzaTitel3.jpg" alt="Placeholder image">
+              </figure>
+              <p class="has-text-weight-bold">Pizza grotte:</p>
+              <p>30cm straal </p>
+              <p class="has-text-weight-bold">Ingredient's:</p>
+              <ul>
+              <li>
+                  kaas
+              </li>
+              <li>
+                  kip
+              </li>
+              <li>
+                  olijven
+              </li>
+              <li>
+                  tomaat saus
+              </li>
+              </ul>
+              <p class="has-text-weight-bold">Prijs:</p>
+              <p>9,99 euro </p>
+              <buton class="button modal-title-colors" href="index.html">Toevoeg bestelling</buton>
+          </section>
+        </div>
+      </div>
+      <div id="modal-4" class="modal" >
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head modal-title-colors">
+            <p class="modal-card-title is-uppercase has-text-weight-bold">Tuna</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <figure class="image is-4by3">
+                <img src="Assets/PizzaTitel4.jpg" alt="Placeholder image">
+              </figure>
+              <p class="has-text-weight-bold">Pizza grotte:</p>
+              <p>30cm straal </p>
+              <p class="has-text-weight-bold">Ingredient's:</p>
+              <ul>
+              <li>
+                  garnalen
+              </li>
+              <li>
+                  tuna
+              </li>
+              <li>
+                  olijven
+              </li>
+              <li>
+                  tomaat saus
+              </li>
+              </ul>
+              <p class="has-text-weight-bold">Prijs:</p>
+              <p>15.99 euro </p>
+              <buton class="button modal-title-colors" href="index.html">Toevoeg bestelling</buton>
+          </section>
+        </div>
+      </div>
+      <footer class="footer modal-title-colors" >
+        <div class="content has-text-centered ">
+          <p class="has-text-grey-light has-text-weight-bold">
+            De pizza op deze pagina bestaat niet echt
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
